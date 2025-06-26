@@ -35,6 +35,31 @@ body {
 
 }
 
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+
+}
+
+#cover-text {
+    /*RGBA, rgb with added value for opacity*/
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: white;
+}
+
 /*header*/
 header {
     background-color: #ffffff;
@@ -53,13 +78,7 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 
-}
 
 #menu   {
     font-size: 110%;
