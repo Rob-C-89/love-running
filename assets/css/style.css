@@ -72,9 +72,25 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/*Navbar styles with dropdown menu*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    /*set nav box to left*/
+    left: 0 ;
+    /*align nav text with header*/
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    /*nav is not displayed until clicked*/
+    display: none;
+
+}
+
 /*main*/
 main {
     background-color: lightblue;
+    /*make main element take up any extra space to push footer down*/
     flex: 1 0 auto;
 }
 
