@@ -40,6 +40,10 @@ h3 {
   color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 #cover-text {
   /*RGBA, rgb with added value for opacity*/
   background-color: rgba(241, 109, 107, 0.7);
