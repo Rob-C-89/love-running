@@ -215,6 +215,7 @@ main {
 
 #photos img {
     width: 100%;
+    line-height: 1em;
 
 }
 
@@ -236,6 +237,15 @@ main {
   padding: 5%;
   color: #3a3a3a;
 }
+
+/*media query : large or landscape phones (576px plus)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 
 /*media query : tablets and larger (768px plus)*/
 @media screen and (min-width: 768px) {
@@ -294,6 +304,10 @@ main {
     text-align: end;
     align-self: flex-end;
   }
+
+  #photos {
+    column-count: 3;
+  }
 }
 
 /*media query : small laptops and larger (992px plus)*/
@@ -335,5 +349,9 @@ main {
 
   #benefits-physical > div {
     align-self: flex-end;
+  }
+
+  #photos {
+    column-count: 4;
   }
 }
