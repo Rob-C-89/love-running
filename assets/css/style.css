@@ -211,6 +211,17 @@ main {
   color: #fafafa;
 }
 
+/*gallery styling*/
+
+#photos img {
+    width: 100%;
+
+}
+
+#photos {
+    line-height: 0;
+}
+
 /*footer*/
 #social-networks {
   text-align: center;
