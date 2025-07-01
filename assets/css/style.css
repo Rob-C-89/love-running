@@ -41,7 +41,7 @@ h3 {
 }
 
 .hidden-heading {
-    display: none;
+  display: none;
 }
 
 #cover-text {
@@ -201,9 +201,9 @@ main {
 
   /*This will not wrap on screens of less than 400px wide. 
     Each div will expand to fill the available space on the row*/
-      flex-basis: 200px;
-    flex-grow: 1;
-    border: 2px solid white;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid white;
 }
 
 #times h3 {
@@ -214,74 +214,65 @@ main {
 /*gallery styling*/
 
 #photos img {
-    width: 100%;
-    line-height: 1em;
-
+  width: 100%;
+  line-height: 1em;
 }
 
 #photos {
-    line-height: 0;
+  line-height: 0;
 }
-
 
 /*sign-up styling*/
 main {
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: column;
-    margin-top: 47px;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin-top: 47px;
 }
 
 #signup {
   background: url("../images/signup-image.webp");
   background-size: cover;
-    padding: 20px 10% 0 10%;
+  padding: 20px 10% 0 10%;
   background-position: 75%;
   flex-grow: 1;
 }
 
 #signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
+  color: #fafafa;
+  margin-bottom: 20px;
 }
 
 #signup-form {
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+  color: #ffffff;
+  background-color: rgba(60, 60, 60, 0.6);
+  padding: 30px;
 }
 
 .text-input {
-    color: #fafafa ;
-    background: transparent;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    width: 100%;
-    margin: 5px 0 20px 0;
-    padding: 0  5px;
-
+  color: #fafafa;
+  background: transparent;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  width: 100%;
+  margin: 5px 0 20px 0;
+  padding: 0 5px;
 }
 
 .radio-buttons {
-    display: flex;
-    width: 100%;
-      justify-content: space-between;
-      
-
-    
-
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .join-button {
-    margin-top: 20px;
-    padding: 15px 32px ;
-    border-radius: 2px;
-    background-color: #454b1b;
-    color: #fafafa ;
-    font-size: 100%;
+  margin-top: 20px;
+  padding: 15px 32px;
+  border-radius: 2px;
+  background-color: #454b1b;
+  color: #fafafa;
+  font-size: 100%;
 }
-
-
 
 /*footer*/
 #social-networks {
@@ -300,12 +291,11 @@ main {
 
 /*media query : large or landscape phones (576px plus)*/
 @media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
+  #photos {
+    column-count: 2;
+    column-gap: 0;
+  }
 }
-
 
 /*media query : tablets and larger (768px plus)*/
 @media screen and (min-width: 768px) {
@@ -370,27 +360,26 @@ main {
   }
 
   /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
+  #signup {
+    background-position: center;
+    position: relative;
+  }
 
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
+  #signup-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+  }
 
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
+  .text-input:hover {
+    border-color: #f16c6b;
+  }
 
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
-
+  .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+  }
 }
 
 /*media query : small laptops and larger (992px plus)*/
@@ -438,4 +427,3 @@ main {
     column-count: 4;
   }
 }
-
